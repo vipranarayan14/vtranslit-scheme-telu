@@ -1,0 +1,41 @@
+{
+  "name": "vtranslit-telu-scheme",
+  "version": "0.0.0",
+  "description": "Telugu scheme for vTranslit.",
+  "keywords": [
+    "ITRANS",
+    "vtranslit",
+    "indic scripts"
+  ],
+  "main": "dist/vtranslit-telu-scheme.npm.js",
+  "files": [
+    "dist/vtranslit-telu-scheme.npm.js"
+  ],
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "eslint": "eslint ./**/*.js",
+    "precommit": "npm run eslint",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Prasanna Venkatesh T S <vipranarayan14@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.15.0",
+    "husky": "^0.14.3",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipranarayan14/vtranslit-telu-scheme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vipranarayan14/vtranslit-telu-scheme/issues"
+  },
+  "homepage": "https://github.com/vipranarayan14/vtranslit-telu-scheme#readme"
+}
