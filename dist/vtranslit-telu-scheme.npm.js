@@ -83,7 +83,7 @@ return /******/ (function(modules) { // webpackBootstrap
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var teluguScheme = exports.teluguScheme = {
+var vTranslitTeluScheme = exports.vTranslitTeluScheme = {
   'about': {
     'schemeCode': 'Telu',
     'schemeName': 'Telugu',
