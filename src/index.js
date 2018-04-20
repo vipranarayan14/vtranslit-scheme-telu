@@ -5,6 +5,9 @@ export const vTranslitTeluScheme = {
     'type': 'brahmic'
   },
   'data': {
+    'ayogavaha': [
+      '\u0C02', '\u0C03'
+    ],
     'consonants': [
       '\u0C15', '\u0C16', '\u0C17', '\u0C18', '\u0C19',
       '\u0C1A', '\u0C13', '\u0C1C', '\u0C1D', '\u0C1E',
@@ -25,11 +28,7 @@ export const vTranslitTeluScheme = {
     ],
     'symbols': [
       '\u0C66', '\u0C67', '\u0C68', '\u0C69', '\u0C6A', '\u0C63', '\u0C6C', '\u0C6D', '\u0C66', '\u0C6F',
-      '।', '॥', '', '\u0C3D',
-      '\u0C02', '\u0C03', '\u0C01'
-    ],
-    'virama': [
-      '\u0C4D'
+      '\u0964', '\u0965', '', '\u0C3D', '\u0C01'
     ],
     'vowelMarks': [
       '', '\u0C3E', '\u0C3F', '\u0C40', '\u0C41', '\u0C42',
