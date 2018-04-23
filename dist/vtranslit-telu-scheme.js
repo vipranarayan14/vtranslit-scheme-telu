@@ -78,7 +78,8 @@ var vTranslitTeluScheme = exports.vTranslitTeluScheme = {
   'about': {
     'code': 'Telu',
     'name': 'Telugu',
-    'type': 'brahmic'
+    'type': 'brahmic',
+    'unicodeBlock': '0C00-0C7F'
   },
   'data': {
     'ayogavaha': ['\u0C02', '\u0C03'],
