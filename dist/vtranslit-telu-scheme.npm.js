@@ -85,8 +85,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 var vTranslitTeluScheme = exports.vTranslitTeluScheme = {
   'about': {
-    'schemeCode': 'Telu',
-    'schemeName': 'Telugu',
+    'code': 'Telu',
+    'name': 'Telugu',
     'type': 'brahmic'
   },
   'data': {
