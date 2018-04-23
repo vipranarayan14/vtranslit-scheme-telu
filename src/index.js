@@ -2,7 +2,8 @@ export const vTranslitTeluScheme = {
   'about': {
     'code': 'Telu',
     'name': 'Telugu',
-    'type': 'brahmic'
+    'type': 'brahmic',
+    'unicodeBlock': '0C00-0C7F'
   },
   'data': {
     'ayogavaha': [
