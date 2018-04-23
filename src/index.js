@@ -1,7 +1,7 @@
 export const vTranslitTeluScheme = {
   'about': {
-    'schemeCode': 'Telu',
-    'schemeName': 'Telugu',
+    'code': 'Telu',
+    'name': 'Telugu',
     'type': 'brahmic'
   },
   'data': {
