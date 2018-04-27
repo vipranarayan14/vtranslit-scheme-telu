@@ -1,5 +1,14 @@
-window["vTranslitTeluScheme"] =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["vTranslitSchemeTelu"] = factory();
+	else
+		root["vTranslitSchemeTelu"] = factory();
+})(typeof self !== 'undefined' ? self : this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -74,7 +83,7 @@ window["vTranslitTeluScheme"] =
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitTeluScheme = exports.vTranslitTeluScheme = {
+var vTranslitSchemeTelu = exports.vTranslitSchemeTelu = {
   'about': {
     'code': 'Telu',
     'name': 'Telugu',
@@ -92,4 +101,5 @@ var vTranslitTeluScheme = exports.vTranslitTeluScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitTeluScheme"];
+/******/ ]);
+});
