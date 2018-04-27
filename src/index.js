@@ -1,4 +1,4 @@
-export const vTranslitTeluScheme = {
+export const vTranslitSchemeTelu = {
   'about': {
     'code': 'Telu',
     'name': 'Telugu',

@@ -1,5 +1,5 @@
 {
-  "name": "vtranslit-telu-scheme",
+  "name": "vtranslit-scheme-telu",
   "version": "0.2.0",
   "description": "Telugu scheme for vTranslit.",
   "keywords": [
@@ -7,9 +7,9 @@
     "vtranslit",
     "indic scripts"
   ],
-  "main": "dist/vtranslit-telu-scheme.npm.js",
+  "main": "dist/vtranslit-scheme-telu.npm.js",
   "files": [
-    "dist/vtranslit-telu-scheme.npm.js"
+    "dist/vtranslit-scheme-telu.npm.js"
   ],
   "scripts": {
     "build": "rimraf dist && webpack",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipranarayan14/vtranslit-telu-scheme.git"
+    "url": "git+https://github.com/vipranarayan14/vtranslit-scheme-telu.git"
   },
   "bugs": {
-    "url": "https://github.com/vipranarayan14/vtranslit-telu-scheme/issues"
+    "url": "https://github.com/vipranarayan14/vtranslit-scheme-telu/issues"
   },
-  "homepage": "https://github.com/vipranarayan14/vtranslit-telu-scheme#readme"
+  "homepage": "https://github.com/vipranarayan14/vtranslit-scheme-telu#readme"
 }
